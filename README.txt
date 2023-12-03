@@ -1,4 +1,4 @@
-In this folder there are two .ipynb (Jupyter Notebook) files. And one "EyeTracker VSHD.sln" file. For the EyeTracker VSHD.sln file to work you need to put your ViewPoint license file here: EyeTracker VSHD\EyeTracker VSHD\bin\Debug\net6.0\License.
+In this repository there are two .ipynb (Jupyter Notebook) files. And one "EyeTracker VSHD.sln" file. For the EyeTracker VSHD.sln file to work you need to put your ViewPoint license file here: EyeTracker VSHD\EyeTracker VSHD\bin\Debug\net6.0\License.
 
 "Precision and accuracy single file.ipynb" is used to find precision and accuracy of a single data file made using the "Eyetracker VSHD.sln" program. 
 To run it just set the file directory and eye in the 2nd cell of code, then run the whole notebook. 
