@@ -1,0 +1,575 @@
+// 1995-2019 © Arrington Research, Inc. 
+// ViewPoint EyeTracker Settings 
+ProductVersion	USB-60x3
+FileVersion   	2.9.5,311 
+SerialNumber  	 200-1680-1-1
+BuildType     	Release Build
+SaveTime	"onsdag 11. oktober 2023, 17:30:15"
+SaveName	"C:\Users\Administrator\Documents\PrecisionAndAccuracy\EyeTracker VSHD\EyeTracker VSHD\bin\Debug\net6.0/Settings/LastRun.txt"
+// SUBJECT DATA -----------------------------------------------
+ipdMeasure	60
+// BEHAVIOR CONTROL -----------------------------------------------
+confirmQuit	Yes
+freezeStops All 
+// >>> freezeStops options: ImageDisplay All 
+// minimumPupilScanDensity 7 
+// minimumGlintScanDensity 3 
+// CRITERIA -----------------------------------------------
+smoothingMethod	EMA
+smoothingPoints	4
+velocityCriterion	0.100
+pupilMaxWidthCriterion	1.000
+// Note: First set pupilMaxWidthCriterion to max value, so min can be set freely. 
+// ViewPoint will not allow Min to be set above Max, or vice versa. 
+pupilMinWidthCriterion	0.000
+pupilMaxWidthCriterion	0.750
+pupilMinAspectCriterion	0.050
+pupilMaxAspectCriterion	0.950
+driftCriterion	1.000
+penPlot	-GazePoint3D 
+penPlot_Range	GazePoint3D	-150.000	+150.000
+penPlot	-Vergence 
+penPlot_Range	Vergence	+0.000	+60.000
+penPlot	+Disparity 
+penPlot_Range	Disparity	-0.300	+0.300
+penPlot	-XRawGaze 
+penPlot_Range	XRawGaze	+0.000	+1.000
+penPlot	+XGaze 
+penPlot_Range	XGaze	+0.000	+1.000
+penPlot	-XRawAngle 
+penPlot_Range	XRawAngle	-60.000	+60.000
+penPlot	-XAngle 
+penPlot_Range	XAngle	-60.000	+60.000
+penPlot	-XVelocity 
+penPlot_Range	XVelocity	-0.100	+0.100
+penPlot	-YRawGaze 
+penPlot_Range	YRawGaze	+0.000	+1.000
+penPlot	+YGaze 
+penPlot_Range	YGaze	+0.000	+1.000
+penPlot	-YRawAngle 
+penPlot_Range	YRawAngle	-60.000	+60.000
+penPlot	-YAngle 
+penPlot_Range	YAngle	-60.000	+60.000
+penPlot	-YVelocity 
+penPlot_Range	YVelocity	-0.100	+0.100
+penPlot	+TVelocity 
+penPlot_Range	TVelocity	+0.000	+0.100
+penPlot	-Diameter 
+penPlot_Range	Diameter	+0.000	+10.000
+penPlot	+Width 
+penPlot_Range	Width	+0.000	+1.000
+penPlot	-Height 
+penPlot_Range	Height	+0.000	+1.000
+penPlot	-Angle 
+penPlot_Range	Angle	-220.000	+220.000
+penPlot	+Aspect 
+penPlot_Range	Aspect	+0.000	+1.000
+penPlot	-Torsion 
+penPlot_Range	Torsion	-20.000	+20.000
+penPlot	-Cyclovergce 
+penPlot_Range	Cyclovergce	-9.000	+9.000
+penPlot	-XPupil 
+penPlot_Range	XPupil	+0.000	+1.000
+penPlot	-YPupil 
+penPlot_Range	YPupil	+0.000	+1.000
+penPlot	-XGlint 
+penPlot_Range	XGlint	+0.000	+1.000
+penPlot	-YGlint 
+penPlot_Range	YGlint	+0.000	+1.000
+penPlot	+Drift 
+penPlot_Range	Drift	+0.000	+0.200
+penPlot	+Fixation 
+penPlot_Range	Fixation	+0.000	+4.000
+penPlot	+Events 
+penPlot_Range	Events	+0.000	+1.000
+penPlot	-Panel 
+penPlot_Range	Panel	-1.500	+8.500
+penPlot	+ROI 
+penPlot_Range	ROI	-1.500	+8.500
+penPlot	+FPS 
+penPlot_Range	FPS	+0.000	+90.000
+penPlot	-Timing 
+penPlot_Range	Timing	+0.000	+66.000
+penPlot	-Processing 
+penPlot_Range	Processing	+0.000	+16.000
+penPlot	-Quality 
+penPlot_Range	Quality	-1.000	+7.000
+penPlot	+Seconds 
+penPlot_Range	Seconds	+0.000	+1.000
+penPlot	-CPU 
+penPlot_Range	CPU	+0.000	+100.000
+penPlot	-HeadPosition 
+penPlot_Range	HeadPosition	-10.000	+99.000
+penPlot	-HeadAngle 
+penPlot_Range	HeadAngle	-90.000	+90.000
+penPlot	-MousePosition 
+penPlot_Range	MousePosition	-1980.000	+1980.000
+penPlot	-UserData1 
+penPlot_Range	UserData1	-99.900	+99.900
+penPlot	-UserData2 
+penPlot_Range	UserData2	-99.900	+99.900
+penPlot	-UserData3 
+penPlot_Range	UserData3	-99.900	+99.900
+penPlot	-UserData4 
+penPlot_Range	UserData4	-99.900	+99.900
+penPlot	-UserData5 
+penPlot_Range	UserData5	-99.900	+99.900
+penPlot	-Tail_PP 
+penPlot_Range	Tail_PP	-99.900	+99.900
+// GRAPHICS CONTROL ----------------------------------------------
+gazeSpaceGraphicsOptions +ROI +POG -Path -Fix -Size -Grid +Cal -Raw 
+// >>> gazeSpaceGraphicsOptions options [ +/- ][ ROI POG Path Fix Size Grid Cal Raw Image Time Drift ] 
+stimulusGraphicsOptions -ROI -POG -Path -Fix -Size -Grid -Cal -Raw 
+// >>> stimulusGraphicsOptions options [ +/- ][ ROI POG Path Fix Size Grid Cal Raw Image Time Drift ] 
+sceneMovieGraphicsOptions -ROI +POG +Path -Fix -Size -Grid -Cal -Raw 
+// >>> sceneMovieGraphicsOptions options [ +/- ][ ROI POG Path Fix Size Grid Cal Raw Image Time Drift ] 
+// DATA FILE ---------------------------------------------------------
+dataFile_startFileTimeAtZero	Yes
+dataFile_asynchMarkerData	No
+dataFile_asynchHeadData	No
+dataFile_useBuffering	Yes
+dataFile_alsoMake -EyeMovie -Events -History 
+dataFile_FileNameLength	Relative
+// EXTRA ---------------------------------------------------------
+// stimWind_CustomStatic	1	0	320	240
+// cursor_Control	OFF
+stimulus_ImageShape	Fit
+// >>> stimulus_ImageShape options: Actual Centered Fit Isotropic
+saveMovie_Type	AVI
+// >>> saveMovie_Type options: VPM AVI 
+saveMovie_DataMode	Painted
+// >>> saveMovie_DataMode options: Embedded Painted 
+saveMovie_Compression	"None"
+// CALIBRATION CONTROL--------------------------------------------
+calibrationRealRect	 0.251	 0.265	 0.753	 0.764
+calibration_PointLocationMethod	AutomaticGrid
+// >>> calibration_PointLocationMethod  methods: AutomaticGrid, OnContent, Custom 
+calibration_Points	16
+// >>> calibration_Points options: 6 9 12 16 20 25 30 36 42 49 56 64 72 
+calibration_StimulusDuration	80
+// >>> calibration_StimulusDuration <N>   tunnel motion every N milliseconds, Defaults: Win98:15,  Win2000:80 
+calibration_WarningTime	0
+// >>> calibration_WarningTime <N>   In units of calibrationSpeed, Default: 20 
+calibration_ISI	2
+// >>> calibration_ISI <N>   In units of calibrationSpeed, Default: 6 
+calibration_AutoIncrement	ON
+// >>> calibration_AutoIncrement  <bool> 
+calibration_SnapMode	ON
+// >>> calibration_SnapMode  <bool> 
+calibration_beepFinished	ON
+// >>> calibration_beepFinished  <bool> 
+calibration_showEyeSpaceGrid	ON
+// >>> calibration_showEyeSpaceGrid  <bool> 
+calibration_StimulusType	Bounce
+// >>> calibration_StimulusType options: Shrink Bounce 
+stimWind_AutoShowOnCalibrate	ON
+stimWind_AutoHideAfterCalibrate	ON
+calibration_PresentationOrder	Random
+calibration_StimulusColor	50	250	50
+calibration_BackgroundColor	136	159	164
+calibration_InitWithHorizontalFlip	0
+calibration_InitWithVerticalFlip	0
+randCal_stimulusDuration	0.100
+// >>> randCal_stimulusDuration <float> where float is in seconds
+randCal_InterStimulusInterval	0.050
+// >>> randCal_InterStimulusInterval <float> where float is in seconds
+randCal_stimulusSize	0.050
+// >>> randCal_stimulusSize <float> where float is normalized
+parallaxCorrection_Slope	0.820000
+// ROI -----------------------------------------------------------
+//               	Index	Left	      Top	      Right	      Bottom
+setROI_RealRect	1	 0.440	 0.420	 0.560	 0.580	Ellipse
+setROI_RealRect	2	 0.652	 0.137	 0.772	 0.297	Ellipse
+setROI_RealRect	3	 0.740	 0.420	 0.860	 0.580	Ellipse
+setROI_RealRect	4	 0.652	 0.703	 0.772	 0.863	Ellipse
+setROI_RealRect	5	 0.440	 0.820	 0.560	 0.980	Ellipse
+setROI_RealRect	6	 0.228	 0.703	 0.348	 0.863	Ellipse
+setROI_RealRect	7	 0.140	 0.420	 0.260	 0.580	Ellipse
+setROI_RealRect	8	 0.228	 0.137	 0.348	 0.297	Ellipse
+setROI_RealRect	9	 0.440	 0.020	 0.560	 0.180	Ellipse
+setROI_RealRect	10	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	11	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	12	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	13	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	14	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	15	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	16	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	17	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	18	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	19	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	20	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	21	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	22	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	23	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	24	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	25	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	26	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	27	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	28	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	29	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	30	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	31	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	32	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	33	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	34	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	35	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	36	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	37	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	38	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	39	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	40	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	41	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	42	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	43	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	44	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	45	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	46	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	47	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	48	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	49	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	50	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	51	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	52	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	53	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	54	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	55	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	56	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	57	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	58	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	59	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	60	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	61	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	62	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	63	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	64	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	65	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	66	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	67	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	68	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	69	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	70	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	71	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	72	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	73	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	74	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	75	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	76	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	77	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	78	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	79	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	80	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	81	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	82	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	83	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	84	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	85	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	86	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	87	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	88	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	89	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	90	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	91	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	92	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	93	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	94	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	95	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	96	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	97	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	98	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_RealRect	99	 0.000	 0.000	 0.000	 0.000	Ellipse
+setROI_Name	1	""
+setROI_Name	2	""
+setROI_Name	3	""
+setROI_Name	4	""
+setROI_Name	5	""
+setROI_Name	6	""
+setROI_Name	7	""
+setROI_Name	8	""
+setROI_Name	9	""
+setROI_Name	10	""
+setROI_Name	11	""
+setROI_Name	12	""
+setROI_Name	13	""
+setROI_Name	14	""
+setROI_Name	15	""
+setROI_Name	16	""
+setROI_Name	17	""
+setROI_Name	18	""
+setROI_Name	19	""
+setROI_Name	20	""
+setROI_Name	21	""
+setROI_Name	22	""
+setROI_Name	23	""
+setROI_Name	24	""
+setROI_Name	25	""
+setROI_Name	26	""
+setROI_Name	27	""
+setROI_Name	28	""
+setROI_Name	29	""
+setROI_Name	30	""
+setROI_Name	31	""
+setROI_Name	32	""
+setROI_Name	33	""
+setROI_Name	34	""
+setROI_Name	35	""
+setROI_Name	36	""
+setROI_Name	37	""
+setROI_Name	38	""
+setROI_Name	39	""
+setROI_Name	40	""
+setROI_Name	41	""
+setROI_Name	42	""
+setROI_Name	43	""
+setROI_Name	44	""
+setROI_Name	45	""
+setROI_Name	46	""
+setROI_Name	47	""
+setROI_Name	48	""
+setROI_Name	49	""
+setROI_Name	50	""
+setROI_Name	51	""
+setROI_Name	52	""
+setROI_Name	53	""
+setROI_Name	54	""
+setROI_Name	55	""
+setROI_Name	56	""
+setROI_Name	57	""
+setROI_Name	58	""
+setROI_Name	59	""
+setROI_Name	60	""
+setROI_Name	61	""
+setROI_Name	62	""
+setROI_Name	63	""
+setROI_Name	64	""
+setROI_Name	65	""
+setROI_Name	66	""
+setROI_Name	67	""
+setROI_Name	68	""
+setROI_Name	69	""
+setROI_Name	70	""
+setROI_Name	71	""
+setROI_Name	72	""
+setROI_Name	73	""
+setROI_Name	74	""
+setROI_Name	75	""
+setROI_Name	76	""
+setROI_Name	77	""
+setROI_Name	78	""
+setROI_Name	79	""
+setROI_Name	80	""
+setROI_Name	81	""
+setROI_Name	82	""
+setROI_Name	83	""
+setROI_Name	84	""
+setROI_Name	85	""
+setROI_Name	86	""
+setROI_Name	87	""
+setROI_Name	88	""
+setROI_Name	89	""
+setROI_Name	90	""
+setROI_Name	91	""
+setROI_Name	92	""
+setROI_Name	93	""
+setROI_Name	94	""
+setROI_Name	95	""
+setROI_Name	96	""
+setROI_Name	97	""
+setROI_Name	98	""
+setROI_Name	99	""
+penColorA	100	255	0
+penColorB	0	255	255
+sceneImageBrightness 	0.5
+sceneImageContrast 	0.5
+sceneImageHue 	0.5
+sceneImageSaturationU 	0.5
+sceneImageSaturationV 	0.5
+//--------------------------------------------
+//		EYE_A 
+//--------------------------------------------
+// VIDEO ---------------------------------------------------------
+EyeA:videoImageBrightness 	0.545098
+EyeA:videoImageContrast   	0.381605
+EyeA:videoAutoImage       	Yes
+EyeA:video_yokedGlint     	Yes
+EyeA:positiveLock     	   	Yes
+EyeA:positiveLock_WidthCriteria   	No
+EyeA:positiveLock_WidthCriteriaMargin   	0.02
+// SCAN CONTROL --------------------------------------------------
+EyeA:mappingFeature	Pupil
+EyeA:// >>> mappingFeature options: Pupil Glint Vector SlipComp 
+EyeA:glintSegmentationMethod	 OvalFit   
+EyeA:// >>> glintSegmentationMethod options: Centroid OvalFit 
+EyeA:pupilSegmentationMethod	 Ellipse   
+// >>> pupilSegmentationMethod options: Centroid OvalFit 
+EyeA:pupilType	Dark  
+// >>> pupilType options: Dark Bright 
+EyeA:videoStandard	NTSC  
+// >>> videoStandard options: NTSC PAL SECAM 
+EyeA:pupilThreshold	0.205
+EyeA:glintThreshold	0.875
+EyeA:pupilScanDensity	7
+EyeA:glintScanDensity	3
+EyeA:pupilScanArea	0.020	0.030	0.980	0.970
+EyeA:glintScanSize	0.400	0.200
+EyeA:glintScanOffset	0.010	0.080
+EyeA:glintScanUnyokedOffset	0.500	0.500
+EyeA:pupilConstrained	1
+EyeA:glintConstrained	1
+EyeA:glintRadiusCriterion	2.000
+EyeA:torsion_Calculation	OFF
+EyeA:torsion_SampleRadius	0.300
+EyeA:torsion_SampleAngle	250.000
+EyeA:torsion_ResolutionDegrees	0.200
+EyeA:torsion_SampleArc	120
+EyeA:torsion_MeasureDegrees	20
+EyeA:torsion_AutoSetAfterAdjust	TRUE
+EyeA:torsion_RealTimeGraphics	TRUE
+EyeA:gazeNudge	0 0
+EyeA:glintsWanted	1
+EyeA:// CALIBRATION DATA (UNIFIED) -------------------------------------
+EyeA://    fm=0:pupilOnly, fm=10:GlintOnly, fm=20:PupilGlintVectorDifference
+EyeA://-------	fm	ix	XeyeDat	YeyeDat	XstimPt	YstimPt	Omit
+EyeA:CalibData	0	0	0.04062	0.35417	0.25095	0.26509	0
+EyeA:CalibData	0	1	0.66562	0.17917	0.25095	0.43132	1
+EyeA:CalibData	0	2	0.54375	0.20833	0.25095	0.59755	0
+EyeA:CalibData	0	3	0.70997	0.10833	0.25095	0.76378	1
+EyeA:CalibData	0	4	0.17188	0.23750	0.41825	0.26509	0
+EyeA:CalibData	0	5	0.84062	0.19583	0.41825	0.43132	0
+EyeA:CalibData	0	6	0.43694	0.17367	0.41825	0.59755	0
+EyeA:CalibData	0	7	0.44126	0.16363	0.41825	0.76378	0
+EyeA:CalibData	0	8	0.59908	0.12639	0.58555	0.26509	0
+EyeA:CalibData	0	9	0.46699	0.08164	0.58555	0.43132	0
+EyeA:CalibData	0	10	0.53154	0.19961	0.58555	0.59755	0
+EyeA:CalibData	0	11	0.54843	0.06158	0.58555	0.76378	1
+EyeA:CalibData	0	12	0.12812	0.23750	0.75285	0.26509	1
+EyeA:CalibData	0	13	0.25000	0.23333	0.75285	0.43132	1
+EyeA:CalibData	0	14	0.71811	0.12831	0.75285	0.59755	0
+EyeA:CalibData	0	15	0.30312	0.20833	0.75285	0.76378	1
+EyeA:CalibData	10	0	0.00000	0.00000	0.25095	0.26509	0
+EyeA:CalibData	10	1	0.00000	0.00000	0.25095	0.43132	0
+EyeA:CalibData	10	2	0.00000	0.00000	0.25095	0.59755	0
+EyeA:CalibData	10	3	0.00000	0.00000	0.25095	0.76378	0
+EyeA:CalibData	10	4	0.00000	0.00000	0.41825	0.26509	0
+EyeA:CalibData	10	5	0.00000	0.00000	0.41825	0.43132	0
+EyeA:CalibData	10	6	0.00000	0.00000	0.41825	0.59755	0
+EyeA:CalibData	10	7	0.00000	0.00000	0.41825	0.76378	0
+EyeA:CalibData	10	8	0.00000	0.00000	0.58555	0.26509	0
+EyeA:CalibData	10	9	0.00000	0.00000	0.58555	0.43132	0
+EyeA:CalibData	10	10	0.00000	0.00000	0.58555	0.59755	0
+EyeA:CalibData	10	11	0.00000	0.00000	0.58555	0.76378	0
+EyeA:CalibData	10	12	0.00000	0.00000	0.75285	0.26509	0
+EyeA:CalibData	10	13	0.00000	0.00000	0.75285	0.43132	0
+EyeA:CalibData	10	14	0.00000	0.00000	0.75285	0.59755	0
+EyeA:CalibData	10	15	0.00000	0.00000	0.75285	0.76378	0
+EyeA:CalibData	20	0	0.00000	0.00000	0.25095	0.26509	0
+EyeA:CalibData	20	1	0.00000	0.00000	0.25095	0.43132	0
+EyeA:CalibData	20	2	0.00000	0.00000	0.25095	0.59755	0
+EyeA:CalibData	20	3	0.00000	0.00000	0.25095	0.76378	0
+EyeA:CalibData	20	4	0.00000	0.00000	0.41825	0.26509	0
+EyeA:CalibData	20	5	0.00000	0.00000	0.41825	0.43132	0
+EyeA:CalibData	20	6	0.00000	0.00000	0.41825	0.59755	0
+EyeA:CalibData	20	7	0.00000	0.00000	0.41825	0.76378	0
+EyeA:CalibData	20	8	0.00000	0.00000	0.58555	0.26509	0
+EyeA:CalibData	20	9	0.00000	0.00000	0.58555	0.43132	0
+EyeA:CalibData	20	10	0.00000	0.00000	0.58555	0.59755	0
+EyeA:CalibData	20	11	0.00000	0.00000	0.58555	0.76378	0
+EyeA:CalibData	20	12	0.00000	0.00000	0.75285	0.26509	0
+EyeA:CalibData	20	13	0.00000	0.00000	0.75285	0.43132	0
+EyeA:CalibData	20	14	0.00000	0.00000	0.75285	0.59755	0
+EyeA:CalibData	20	15	0.00000	0.00000	0.75285	0.76378	0
+//--------------------------------------------
+//		EYE_B 
+//--------------------------------------------
+// VIDEO ---------------------------------------------------------
+EyeB:videoImageBrightness 	0.419608
+EyeB:videoImageContrast   	0.491194
+EyeB:videoAutoImage       	Yes
+EyeB:video_yokedGlint     	Yes
+EyeB:positiveLock     	   	Yes
+EyeB:positiveLock_WidthCriteria   	No
+EyeB:positiveLock_WidthCriteriaMargin   	0.02
+// SCAN CONTROL --------------------------------------------------
+EyeB:mappingFeature	Pupil
+EyeB:// >>> mappingFeature options: Pupil Glint Vector SlipComp 
+EyeB:glintSegmentationMethod	 OvalFit   
+EyeB:// >>> glintSegmentationMethod options: Centroid OvalFit 
+EyeB:pupilSegmentationMethod	 Ellipse   
+// >>> pupilSegmentationMethod options: Centroid OvalFit 
+EyeB:pupilType	Dark  
+// >>> pupilType options: Dark Bright 
+EyeB:videoStandard	NTSC  
+// >>> videoStandard options: NTSC PAL SECAM 
+EyeB:pupilThreshold	0.085
+EyeB:glintThreshold	0.875
+EyeB:pupilScanDensity	7
+EyeB:glintScanDensity	3
+EyeB:pupilScanArea	0.020	0.030	0.980	0.970
+EyeB:glintScanSize	0.400	0.200
+EyeB:glintScanOffset	0.010	0.080
+EyeB:glintScanUnyokedOffset	0.500	0.500
+EyeB:pupilConstrained	1
+EyeB:glintConstrained	1
+EyeB:glintRadiusCriterion	2.000
+EyeB:torsion_Calculation	OFF
+EyeB:torsion_SampleRadius	0.300
+EyeB:torsion_SampleAngle	250.000
+EyeB:torsion_ResolutionDegrees	0.200
+EyeB:torsion_SampleArc	120
+EyeB:torsion_MeasureDegrees	20
+EyeB:torsion_AutoSetAfterAdjust	TRUE
+EyeB:torsion_RealTimeGraphics	TRUE
+EyeB:gazeNudge	0 0
+EyeB:glintsWanted	1
+EyeB:// CALIBRATION DATA (UNIFIED) -------------------------------------
+EyeB://    fm=0:pupilOnly, fm=10:GlintOnly, fm=20:PupilGlintVectorDifference
+EyeB://-------	fm	ix	XeyeDat	YeyeDat	XstimPt	YstimPt	Omit
+EyeB:CalibData	0	0	0.49373	0.49999	0.25095	0.26509	1
+EyeB:CalibData	0	1	0.54231	0.70365	0.25095	0.43132	1
+EyeB:CalibData	0	2	0.49144	0.50802	0.25095	0.59755	1
+EyeB:CalibData	0	3	0.52301	0.76120	0.25095	0.76378	0
+EyeB:CalibData	0	4	0.49885	0.50518	0.41825	0.26509	1
+EyeB:CalibData	0	5	0.49645	0.50086	0.41825	0.43132	1
+EyeB:CalibData	0	6	0.49801	0.50976	0.41825	0.59755	1
+EyeB:CalibData	0	7	0.78202	0.55776	0.41825	0.76378	0
+EyeB:CalibData	0	8	0.53850	0.19566	0.58555	0.26509	0
+EyeB:CalibData	0	9	0.50390	0.50645	0.58555	0.43132	1
+EyeB:CalibData	0	10	0.49652	0.50625	0.58555	0.59755	1
+EyeB:CalibData	0	11	0.52371	0.73457	0.58555	0.76378	1
+EyeB:CalibData	0	12	0.70000	0.35610	0.75285	0.26509	0
+EyeB:CalibData	0	13	0.49415	0.50520	0.75285	0.43132	1
+EyeB:CalibData	0	14	0.49419	0.50507	0.75285	0.59755	0
+EyeB:CalibData	0	15	0.83871	0.55023	0.75285	0.76378	0
+EyeB:CalibData	10	0	0.00000	0.00000	0.25095	0.26509	0
+EyeB:CalibData	10	1	0.00000	0.00000	0.25095	0.43132	0
+EyeB:CalibData	10	2	0.00000	0.00000	0.25095	0.59755	0
+EyeB:CalibData	10	3	0.00000	0.00000	0.25095	0.76378	0
+EyeB:CalibData	10	4	0.00000	0.00000	0.41825	0.26509	0
+EyeB:CalibData	10	5	0.00000	0.00000	0.41825	0.43132	0
+EyeB:CalibData	10	6	0.00000	0.00000	0.41825	0.59755	0
+EyeB:CalibData	10	7	0.00000	0.00000	0.41825	0.76378	0
+EyeB:CalibData	10	8	0.00000	0.00000	0.58555	0.26509	0
+EyeB:CalibData	10	9	0.00000	0.00000	0.58555	0.43132	0
+EyeB:CalibData	10	10	0.00000	0.00000	0.58555	0.59755	0
+EyeB:CalibData	10	11	0.00000	0.00000	0.58555	0.76378	0
+EyeB:CalibData	10	12	0.00000	0.00000	0.75285	0.26509	0
+EyeB:CalibData	10	13	0.00000	0.00000	0.75285	0.43132	0
+EyeB:CalibData	10	14	0.00000	0.00000	0.75285	0.59755	0
+EyeB:CalibData	10	15	0.00000	0.00000	0.75285	0.76378	0
+EyeB:CalibData	20	0	0.00000	0.00000	0.25095	0.26509	0
+EyeB:CalibData	20	1	0.00000	0.00000	0.25095	0.43132	0
+EyeB:CalibData	20	2	0.00000	0.00000	0.25095	0.59755	0
+EyeB:CalibData	20	3	0.00000	0.00000	0.25095	0.76378	0
+EyeB:CalibData	20	4	0.00000	0.00000	0.41825	0.26509	0
+EyeB:CalibData	20	5	0.00000	0.00000	0.41825	0.43132	0
+EyeB:CalibData	20	6	0.00000	0.00000	0.41825	0.59755	0
+EyeB:CalibData	20	7	0.00000	0.00000	0.41825	0.76378	0
+EyeB:CalibData	20	8	0.00000	0.00000	0.58555	0.26509	0
+EyeB:CalibData	20	9	0.00000	0.00000	0.58555	0.43132	0
+EyeB:CalibData	20	10	0.00000	0.00000	0.58555	0.59755	0
+EyeB:CalibData	20	11	0.00000	0.00000	0.58555	0.76378	0
+EyeB:CalibData	20	12	0.00000	0.00000	0.75285	0.26509	0
+EyeB:CalibData	20	13	0.00000	0.00000	0.75285	0.43132	0
+EyeB:CalibData	20	14	0.00000	0.00000	0.75285	0.59755	0
+EyeB:CalibData	20	15	0.00000	0.00000	0.75285	0.76378	0
+// ---------------------------------------------------------------
+END	
